@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Письмо №{mes_num}</title>
+    </head>
+    <body>
+        <p>От: {from}</p>
+        <p>Кому: {to}</p>
+        <p>Дата: {date}</p>
+        <p>Тема: {subject}</p>
+        <p>{has_attachment}</p>
+        <hr>
+        {content}
+    </body>
+</html>
